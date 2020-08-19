@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #20202d;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.upper-gradient {
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  padding-bottom: 155px;
+}
+.container {
+  max-width: 945px;
+  margin: auto;
+}
+.header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 105px;
+}
+.logo {
+  max-height: 50px;
+}
+.social-link {
+  margin-left: 20px;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preview .text .subtitle {
+  display: block;
+  margin-bottom: 14px;
+  color: #ffbb01;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.preview .text .name {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.preview .text .descr {
+  max-width: 420px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+.preview .text .descr2 {
+  max-width: 420px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 38px;
+}
+.button {
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  box-shadow: 0px 4px 0px #b68500;
+  border-radius: 5px 5px 10px 10px;
+  border: none;
+  padding: 24px 100px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: linear-gradient(180deg, #e6c96b 0%, #dfa300 100%);
+}
+.button:active {
+  background: linear-gradient(180deg, #c9b05d 0%, #c99300 100%);
+}
+.button:focus {
+  outline: none;
+}
+.avatar {
+  width: 390px;
+  height: 390px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(../img/myphoto.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: 10px solid #fff;
+}
+/* main */
+.section {
+  padding-top: 84px;
+  padding-bottom: 92px;
+}
+.section-title {
+  margin: 0;
+  margin-bottom: 84px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.features {
+  background-color: #000;
+}
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feature {
+  flex-basis: 30%;
+}
+.feature .image {
+  display: block;
+  margin-bottom: 22px;
+}
+.feature .title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.feature .text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+/* contacts */
+.contacts-form {
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  max-width: 380px;
+  padding: 40px 48px 48px 48px;
+}
+.form-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.input {
+  background: #f8f8f8;
+  border: none;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 18px 20px;
+  width: 100%;
+  padding-left: 50px;
+}
+.input-name {
+  margin-bottom: 17px;
+  background-image: url(../img/input/user-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.input-phone {
+  margin-bottom: 26px;
+  background-image: url(../img/input/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.form-button {
+  width: 100%;
+}
+.contacts-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.contacts-text {
+  flex-basis: 50%;
+}
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts-phone,
+.contacts-mail,
+.contacts-social,
+.contacts-cv {
+  flex-basis: 50%;
+}
+.contacts-phone,
+.contacts-mail {
+  margin-bottom: 53px;
+}
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 30px;
+}
+.contacts-link:hover {
+  text-decoration: underline;
+}
+.contacts-policy {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #a5a5a5;
+  margin-top: 73px;
+}
+footer {
+  background: linear-gradient(180deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
