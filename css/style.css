@@ -256,8 +256,14 @@ body {
   background-position: center left 20px;
 }
 .input-phone {
-  margin-bottom: 26px;
+  margin-bottom: 17px;
   background-image: url(../img/input/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.input-message {
+  margin-bottom: 26px;
+  background-image: url(../img/input/message-icon.svg);
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
