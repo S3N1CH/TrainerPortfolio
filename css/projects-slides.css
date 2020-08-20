@@ -1,0 +1,25 @@
+.project-image {
+  width: 350px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border: 5px solid #fff;
+}
+.project-slide-1 .project-image {
+  background-image: url(../img/projects/cross-product.png);
+}
+.project-slide-2 .project-image {
+  background-image: url(../img/projects/visitcard.png);
+}
+.project-slide-3 .project-image {
+  background-image: url(../img/projects/role-of-wind-farms.png);
+}
+.project-slide-4 .project-image {
+  background-image: url(../img/projects/python.png);
+}
+.project-slide-5 .project-image {
+  background-image: url(../img/projects/space-x.png);
+}

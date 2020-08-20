@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   .header {
-    margin-top: 43px;
+    margin-top: 20px;
     margin-right: 31px;
     margin-left: 31px;
     margin-bottom: 38px;
@@ -17,7 +17,6 @@
   .avatar {
     width: 220px;
     height: 220px;
-    background-size: cover;
     margin: 0;
     margin-bottom: 17px;
   }
@@ -37,6 +36,7 @@
     font-size: 16px;
     line-height: 140%;
   }
+  /* main */
   .section {
     padding-top: 63px;
     padding-bottom: 47px;
@@ -45,6 +45,7 @@
     text-align: center;
     margin-bottom: 60px;
   }
+  /* features */
   .features-block {
     flex-direction: column;
     margin-left: 32px;
@@ -52,6 +53,37 @@
   }
   .feature {
     margin-bottom: 35px;
+  }
+  /* recent projects */
+  .project-slide {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-image {
+    width: 280px;
+    height: 224px;
+  }
+  .project-text {
+    margin-top: 46px;
+    margin-left: 31px;
+    margin-right: 31px;
+    flex-direction: column;
+  }
+  .project-title {
+    margin-right: 0;
+  }
+  .project-subblock {
+    margin-bottom: 44px;
+  }
+  .project-subblock-text {
+    margin-right: 0;
+  }
+  .projects-pagination {
+    margin-top: 27px;
+  }
+  /* contacts */
+  .contacts-form {
+    padding: 40px 15px 47px 15px;
   }
   .form-button {
     padding-right: 0;

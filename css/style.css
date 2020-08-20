@@ -95,6 +95,7 @@ body {
   border-radius: 50%;
   background-image: url(../img/myphoto.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center top;
   border: 10px solid #fff;
 }
@@ -111,6 +112,7 @@ body {
   font-size: 36px;
   line-height: 42px;
 }
+/* features */
 .features {
   background-color: #000;
 }
@@ -138,6 +140,85 @@ body {
   font-size: 16px;
   line-height: 28px;
   margin: 0;
+}
+/* recent projects */
+.recent-projects {
+  background: linear-gradient(180deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+.project-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.project-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.project-subblock-first-line {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+.project-subblock {
+  display: flex;
+  align-items: flex-start;
+}
+.project-subblock-subtitle {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.project-subblock-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 50px;
+}
+.decor-line:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  margin-right: 16px;
+  background-color: #ffc41d;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+.project-link:hover {
+  text-decoration: underline;
+}
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.projects-bullet-active {
+  background-color: #ffbb01;
 }
 /* contacts */
 .contacts-form {
@@ -203,10 +284,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.contacts-phone,
-.contacts-mail,
-.contacts-social,
-.contacts-cv {
+.contacts-data-subblock {
   flex-basis: 50%;
 }
 .contacts-phone,
@@ -229,7 +307,4 @@ body {
   text-decoration-line: underline;
   color: #a5a5a5;
   margin-top: 73px;
-}
-footer {
-  background: linear-gradient(180deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
